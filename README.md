@@ -1,4 +1,4 @@
-# Face extraction
+# Face Recognition
 
 This repo consists of two python files, which uses following method to extract faces:
   <ul>
