@@ -1,3 +1,4 @@
+
 # Face Recognition
 
 This repo has Data, iPython Notebooks and models to differentiate among:
@@ -22,11 +23,12 @@ Following are the functionalities of each iPython Notebook:
   <li> Prediction.ipynb : Code to detect faces and output recognised person's name if he/she is present in collected data. </li>
 </ul>
 <br>
-**Deep Learning method gives 5 FPS at max when run on CPU**
+<b>Deep Learning method gives 5 FPS at max when run on CPU</b>
 
-This method is slow, but is quite accurate.
----
+This method is slow, yet quite accurate.
+
 Methods to extract faces out of images:
+----
   <ul>
     <li>Haar Cascade frontal face detector</li>
     <li>MTCNN (Multi-task Cascaded Convolutional Neural Networks)</li>
