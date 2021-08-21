@@ -1,6 +1,34 @@
+
 # Face Recognition
 
-This repo consists of two python files, which uses following method to extract faces:
+This repo has Data, iPython Notebooks and models to differentiate among:
+
+<ul>
+  <li> Barack Obama </li>
+  <li> Donald Trump </li>
+  <li> Queen Elizabeth II </li>
+  <li> Bill Gates </li>
+</ul>
+
+On live Video feed.<br>
+
+VGG16 is used as base CNN model over which fully connected DL layers are present.<br>
+
+Following are the functionalities of each iPython Notebook:
+
+<ul>
+  <li> Data_collection.ipynb : To collect data of person to be recognised. 
+                               It can collect data from a folder as well as from a live video feed. </li>
+  <li> face_detection_custom.ipynb : Definition of model architecture and training is performed in this notebook.</li>
+  <li> Prediction.ipynb : Code to detect faces and output recognised person's name if he/she is present in collected data. </li>
+</ul>
+<br>
+<b>Deep Learning method gives 5 FPS at max when run on CPU</b>
+
+This method is slow, yet quite accurate.
+
+Methods to extract faces out of images:
+----
   <ul>
     <li>Haar Cascade frontal face detector</li>
     <li>MTCNN (Multi-task Cascaded Convolutional Neural Networks)</li>
@@ -19,4 +47,4 @@ Speed for this algorithm was around 20 fps on my system</p>
      Processing speed was around 30fps on my system.</p>
 </ul>
 
-As of now, MTCNN in better among these two.
+MTCNN was proved to be better among these two and is utilised for Data collection.
